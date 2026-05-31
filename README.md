@@ -1,8 +1,10 @@
 # Jeju Card Spending Analysis
 
-Analyzed card transaction data from Jeju Island (2017–2018) to figure out spending trends by age, season, region, and industry. The overall goal was to see whether the data supports opening a café franchise in Jeju and, if so, where and when.
+📊 [View Notebook 1 on nbviewer](https://nbviewer.org/github/itshyunseunglee/jeju-card-analysis/blob/main/jeju_analysis1.ipynb) — Spending Trends by Age, Season, and User Type
 
----
+📊 [View Notebook 2 on nbviewer](https://nbviewer.org/github/itshyunseunglee/jeju-card-analysis/blob/main/jeju_analysis2.ipynb) — Region-Level Analysis + Café vs. Visitor Population
+
+Analyzed card transaction data from Jeju Island (2017–2018) to figure out spending trends by age, season, region, and industry. The overall goal was to see whether the data supports opening a café franchise in Jeju and, if so, where and when.
 
 ## Datasets
 
@@ -12,8 +14,6 @@ Analyzed card transaction data from Jeju Island (2017–2018) to figure out spen
 | `data/jeju_card_region_2017.csv` | Region-level card spending data for 2017. 26,968 rows. |
 | `data/jeju_card_region_2018.csv` | Region-level card spending data for 2018. 27,183 rows. |
 | `data/jeju_population.csv` | Daily visitor population by region, gender, and age group. 527,026 rows. |
-
----
 
 ## Notebooks
 
@@ -39,8 +39,6 @@ Analyzed card transaction data from Jeju Island (2017–2018) to figure out spen
 - 40s have the highest total spending volume
 - Shopping and food & beverage dominate across all age groups
 
----
-
 ### `jeju_analysis2.ipynb` — Region-Level Analysis + Café vs. Visitor Population
 
 **Preprocessing**
@@ -63,8 +61,6 @@ Analyzed card transaction data from Jeju Island (2017–2018) to figure out spen
 - Café sales had a clear positive correlation with visitor population (r ≈ 0.633)
 - No such correlation across all industries combined (r ≈ 0.163), suggesting cafés are particularly traffic-sensitive
 
----
-
 ## Conclusion
 
 Based on the card data, the best strategy for a café entry into Jeju would be:
@@ -72,13 +68,9 @@ Based on the card data, the best strategy for a café entry into Jeju would be:
 - **Timing**: Open before or at the start of summer (June–August peak)
 - **Location**: High-traffic tourist areas like Yeondong or Yongdam2-dong, where visitor population and café revenue are closely linked
 
----
-
 ## Stack
 
 Python, pandas, matplotlib, seaborn
-
----
 
 ## Structure
 
